@@ -10,7 +10,24 @@
 </head>
 <body>
     <section>
+
         @yield('header')
+
     </section>
+
+    <main>
+        <section class="sectioncomic">
+    
+            @include('partials.main')
+    
+        </section>
+    </main>
+
+    <section class="feature">
+
+        @yield('homepage')
+
+    </section>
+
 </body>
 </html>

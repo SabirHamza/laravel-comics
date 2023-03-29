@@ -16,5 +16,22 @@
             </div>
         </div>
     </div>
+
+    <section class="jumbodron">
+
+    </section>
 </header>
+@endsection
+
+@section('footer')
+    <div class="container">
+        <div class="row justify-content-between">
+            @foreach($Cards as $Card)
+            <div class="col-auto">
+                <img src="../img/buy-comics-digital-comics.png" alt="">
+                <span>{{$Card['text']}}</span>
+            </div>
+            @endforeach
+        </div>
+    </div>
 @endsection

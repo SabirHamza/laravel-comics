@@ -23,3 +23,22 @@ header {
         }
     }
 }
+
+.jumbodron {
+    min-height: 250px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+}
+
+main {
+    .sectioncomic {
+        background-color: #222222;
+        color: white;
+    }
+
+    .jumbodron {
+        min-height: 250px;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: cover;
+    }
+}
