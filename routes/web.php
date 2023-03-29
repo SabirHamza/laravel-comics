@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $links = config('dc-comics-links.DcComicsLinks');
+
+    return view('header', compact('links'));
 });

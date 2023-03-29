@@ -1,9 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
-    min-height: 100vh;
-}
+header {
 
-img {
-    max-height: 150px;
+    .col-auto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            padding: 1rem 0;
+            width: 70%;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            color: #0C7CEC;
+        }
+    }
 }
